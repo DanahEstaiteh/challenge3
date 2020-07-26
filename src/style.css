@@ -2,7 +2,12 @@ html {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-
+form{
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+}
 
 .email,
 .password,
@@ -27,7 +32,7 @@ h2 {
 
 a {
   text-align     : center;
-  margin-left    : 44%;
+  margin-left    : 33%;
   margin-right   : auto;
   text-decoration: none;
 
@@ -91,7 +96,8 @@ hr~div {
 }
 
 @media (max-width: 767px) {
-  a {
-    margin-left: 30%;
+  form{
+    width: 100%;
   }
+  
 }
