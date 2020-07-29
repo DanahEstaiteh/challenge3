@@ -59,7 +59,8 @@ a {
 }
 
 .login {
-  background-color: #28b4b2;
+  background-image: linear-gradient(to left, #28b4b2 , #70c4c3,#8ad0d1);
+  
   border          : none;
   color           : white;
 }
@@ -81,18 +82,20 @@ hr~div {
 }
 
 .circle {
-  display         : inline-block;
-  vertical-align  : middle;
-  width           : 30px;
-  height          : 30px;
-  background-color: white;
-  border          : solid 1px #ccc;
-  border-radius   : 50%;
-  position        : absolute;
-  top             : -12px;
-  left            : calc(50% - 5px);
-  text-align      : center;
-  font-weight     : bold;
+  display: flex;
+    justify-content: center;
+    /* vertical-align: middle; */
+    flex-direction: column;
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border: solid 1px #ccc;
+    border-radius: 50%;
+    position: absolute;
+    top: -15px;
+    left:calc(50% - 5px);
+    text-align: center;
+    font-weight: bold;
 }
 
 @media (max-width: 767px) {
